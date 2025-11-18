@@ -36,7 +36,7 @@ export function createCustomer(fullName, nationalID) {
 
 export function updateName(fullName) {
   return {
-    type: "customer/updateCustomer",
+    type: "customer/updateName",
     payload: {
       fullName: fullName,
     },
